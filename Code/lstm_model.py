@@ -32,7 +32,7 @@ from tensorflow.keras.utils import to_categorical
 
 
 # ======================= CONFIG ======================================
-TEXT_COL = "clean_text"
+TEXT_COL = "lemma_text"
 LABEL_COL = "label"
 
 MAX_VOCAB = 20000
@@ -254,3 +254,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
